@@ -21,7 +21,7 @@ v0 = 0.1
 C = 0.3 #Drag coeficient
 
 b1 = sphere(pos=vec(0,0,0), radius=R, color=color.yellow, m = M, make_trail=True)
-b2 = sphere(pos=vec(4*R,R/0.5,0), radius=R, color=color.red, m = M, make_trail=True)
+b2 = sphere(pos=vec(4*R,R,0), radius=R, color=color.red, m = M, make_trail=True)
 
 b1.p = vec(1,0,0)*v0*0*b1.m
 b2.p = vec(-1,0,0)*v0*1.5*b2.m
